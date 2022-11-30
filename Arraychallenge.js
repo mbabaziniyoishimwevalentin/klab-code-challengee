@@ -1,4 +1,4 @@
-const item = [
+const goods = [
     { name: 'Bike', price: 100 }, 
     { name: 'TV', price: 200 }, 
     { name: 'Album', price: 10 }, 
@@ -64,7 +64,7 @@ function totalAboveTen(array){
     return `The total cost of products above $10 is ${total}`;
 }
 
-console.log(cheapest(item));
-console.log(expensive(item));
-console.log(productTotal(item));
-console.log(totalAboveTen(item));
+console.log(cheapest(goods));
+console.log(expensive(goods));
+console.log(productTotal(goods));
+console.log(totalAboveTen(goods));
